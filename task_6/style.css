@@ -1,0 +1,39 @@
+* {
+    box-sizing: border-box;
+}
+
+.switcher {
+    width: 300px;
+    height: 100px;
+    background: darkslategrey;
+    padding: 10px;
+
+}
+
+.switcher > div {
+    background: orange;
+    height: 80px;
+    width: 80px;
+    border-radius: 5px;
+    border: 1px solid black;
+    padding: 5px;
+    position: relative;
+    transition: all 0.3s ease;
+
+}
+
+.first {
+    left: 0;
+
+}
+
+.second {
+    left: 100px;
+
+}
+
+.third {
+
+    left: 200px;
+
+}

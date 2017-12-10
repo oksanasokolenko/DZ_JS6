@@ -1,0 +1,12 @@
+.block{
+    width: 30px;
+    height: 30px;
+    background: red;
+    transition: all 0.3s ease;
+    margin: 5px;
+
+}
+.round{
+    border-radius: 50%;
+
+}
